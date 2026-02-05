@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Resume page with PDF viewer and download functionality
 - Contact page with LinkedIn, GitHub, and Email links
 - Experience page with complete work history (6 positions: Dognosis, SubCom, Kwanzoo, UST Global)
+- Education page with academic background (IIT Palakkad, Narayana Junior College)
 - lucide-react 0.469.0 for icons
 - Black theme across entire website (Next.js style)
 - Client and Server Components architecture

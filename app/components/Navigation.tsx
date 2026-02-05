@@ -2,11 +2,19 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Briefcase, FolderGit2, FileText, Mail } from "lucide-react";
+import {
+  Home,
+  Briefcase,
+  GraduationCap,
+  FolderGit2,
+  FileText,
+  Mail,
+} from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Home", icon: Home },
   { href: "/experience", label: "Experience", icon: Briefcase },
+  { href: "/education", label: "Education", icon: GraduationCap },
   { href: "/projects", label: "Projects", icon: FolderGit2 },
   { href: "/resume", label: "Resume", icon: FileText },
   { href: "/contact", label: "Contact", icon: Mail },

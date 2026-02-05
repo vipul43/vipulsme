@@ -35,7 +35,7 @@ make clean      # Clean build artifacts
 ## Pages
 
 - Home (landing with hero and navigation)
-- Education
+- Education (IIT Palakkad, Narayana Junior College)
 - Experience (Dognosis, SubCom, Kwanzoo, UST Global)
 - Projects
 - Resume (with PDF viewer and download)
