@@ -39,4 +39,4 @@ make clean      # Clean build artifacts
 - Experience
 - Projects
 - Resume (with PDF viewer and download)
-- Contact
+- Contact (LinkedIn, GitHub, Email)
