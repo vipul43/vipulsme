@@ -1,6 +1,6 @@
 # vipulsme
 
-Personal website built with modern web technologies.
+Personal website at [vipuls.me](https://vipuls.me)
 
 ## Tech Stack
 

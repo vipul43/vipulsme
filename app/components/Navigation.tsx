@@ -21,9 +21,9 @@ export default function Navigation() {
         <div className="flex h-16 items-center justify-between">
           <Link
             href="/"
-            className="text-xl font-bold text-white transition-colors hover:text-gray-300"
+            className="flex h-10 w-10 items-center justify-center rounded-lg bg-white text-xl font-bold text-black transition-colors hover:bg-gray-200"
           >
-            Vipul
+            V
           </Link>
 
           <div className="flex gap-1">
