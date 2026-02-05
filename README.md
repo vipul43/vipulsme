@@ -38,5 +38,5 @@ make clean      # Clean build artifacts
 - Education
 - Experience
 - Projects
-- Resume
+- Resume (with PDF viewer and download)
 - Contact

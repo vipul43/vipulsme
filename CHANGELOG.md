@@ -17,3 +17,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Locked versions in package.json (Node 24.13.0, npm 11.6.2)
 - Makefile with setup, dev, build, lint, format, clean commands
 - Page structure: Home, Education, Experience, Projects, Resume, Contact
+- Resume page with PDF viewer and download functionality
+- lucide-react 0.469.0 for icons
+- Black theme across entire website (Next.js style)
+
+### Changed
+
+- Global theme to pure black background with white text
+- Resume page displays PDF inline with download option
