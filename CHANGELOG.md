@@ -19,7 +19,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Page structure: Home, Education, Experience, Projects, Resume, Contact
 - Resume page with PDF viewer and download functionality
 - Contact page with LinkedIn, GitHub, and Email links
+- Experience page with complete work history (6 positions: Dognosis, SubCom, Kwanzoo, UST Global)
 - lucide-react 0.469.0 for icons
 - Black theme across entire website (Next.js style)
 - Client and Server Components architecture
 - Metadata API for SEO
+
+### Fixed
+
+- Resume page loading issue with iframe timeout
+- ESLint configuration for ESLint 9 compatibility

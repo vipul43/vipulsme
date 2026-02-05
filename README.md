@@ -36,7 +36,7 @@ make clean      # Clean build artifacts
 
 - Home (landing)
 - Education
-- Experience
+- Experience (Dognosis, SubCom, Kwanzoo, UST Global)
 - Projects
 - Resume (with PDF viewer and download)
 - Contact (LinkedIn, GitHub, Email)

@@ -8,10 +8,10 @@ export default function ResumeViewer() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Set a timeout to hide loading after 2 seconds regardless
+    // Hide loading after 1 second
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
