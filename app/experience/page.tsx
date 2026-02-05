@@ -100,7 +100,7 @@ const experiences = [
       "Maintained dedicated GitHub repository to document daily progress, coding exercises, and version control workflows",
       "Gained foundational proficiency in company's development stack, preparing for live project contributions",
     ],
-    technologies: ["Git", "GitHub", "Software Engineering"],
+    technologies: [],
   },
   {
     company: "UST Global",
