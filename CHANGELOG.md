@@ -17,6 +17,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Locked versions in package.json (Node 24.13.0, npm 11.6.2)
 - Makefile with setup, dev, build, lint, format, clean commands
 - Page structure: Home, Education, Experience, Projects, Resume, Contact
+- Home page with hero section and navigation
+- Fixed navigation bar with active state highlighting
+- Hero section with social links (GitHub, LinkedIn, Email)
 - Resume page with PDF viewer and download functionality
 - Contact page with LinkedIn, GitHub, and Email links
 - Experience page with complete work history (6 positions: Dognosis, SubCom, Kwanzoo, UST Global)
@@ -24,6 +27,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Black theme across entire website (Next.js style)
 - Client and Server Components architecture
 - Metadata API for SEO
+- Smooth animations and transitions
+
+### Changed
+
+- Global theme to pure black background with white text
+- Resume page displays PDF inline with download option
 
 ### Fixed
 

@@ -34,9 +34,16 @@ make clean      # Clean build artifacts
 
 ## Pages
 
-- Home (landing)
+- Home (landing with hero and navigation)
 - Education
 - Experience (Dognosis, SubCom, Kwanzoo, UST Global)
 - Projects
 - Resume (with PDF viewer and download)
 - Contact (LinkedIn, GitHub, Email)
+
+## Features
+
+- Fixed navigation bar with active state highlighting
+- Hero section with social links
+- Responsive design
+- Smooth animations and transitions
