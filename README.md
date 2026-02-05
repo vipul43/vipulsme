@@ -1,0 +1,42 @@
+# vipulsme
+
+Personal website built with modern web technologies.
+
+## Tech Stack
+
+- **Node.js**: 24.13.0
+- **npm**: 11.6.2
+- **Next.js**: 16.1.6 (App Router + Turbopack)
+- **React**: 19.2.3
+- **TypeScript**: 5.7.3
+- **Tailwind CSS**: 4.1.3
+- **ESLint**: 9.18.0
+- **Prettier**: 3.8.1
+
+All versions are locked in `package.json`.
+
+## Setup
+
+```bash
+# Requires Node.js 24.13.0 and npm 11.6.2
+make setup
+```
+
+## Commands
+
+```bash
+make dev        # Start dev server
+make build      # Build for production
+make lint       # Run linter
+make format     # Format code
+make clean      # Clean build artifacts
+```
+
+## Pages
+
+- Home (landing)
+- Education
+- Experience
+- Projects
+- Resume
+- Contact
