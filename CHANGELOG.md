@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Contact page with LinkedIn, GitHub, and Email links
 - Experience page with complete work history (6 positions: Dognosis, SubCom, Kwanzoo, UST Global)
 - Education page with academic background (IIT Palakkad, Narayana Junior College)
+- Projects page with 5 projects (Kiwis.club, Blood Donation System, Face Mask Detector, Hospital Management, Image Description)
 - lucide-react 0.469.0 for icons
 - Black theme across entire website (Next.js style)
 - Client and Server Components architecture

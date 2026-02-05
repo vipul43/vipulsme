@@ -37,7 +37,7 @@ make clean      # Clean build artifacts
 - Home (landing with hero and navigation)
 - Education (IIT Palakkad, Narayana Junior College)
 - Experience (Dognosis, SubCom, Kwanzoo, UST Global)
-- Projects
+- Projects (Kiwis.club, Blood Donation System, Face Mask Detector, Hospital Management, Image Description)
 - Resume (with PDF viewer and download)
 - Contact (LinkedIn, GitHub, Email)
 
