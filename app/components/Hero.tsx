@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="flex min-h-screen items-center justify-center bg-black px-4">
       <div className="mx-auto max-w-4xl text-center">
         <h1 className="animate-fade-in mb-6 text-5xl font-bold text-white sm:text-7xl">
-          Hi, I'm <span className="text-gray-400">Vipul</span>
+          Hi, I&apos;m <span className="text-gray-400">Vipul</span>
         </h1>
 
         <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-400 sm:text-2xl">
