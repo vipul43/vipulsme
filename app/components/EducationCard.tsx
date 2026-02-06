@@ -16,6 +16,7 @@ interface Course {
   title: string;
   grade: string;
   attendance: string;
+  credits?: number;
   githubLink?: string;
   notionLink?: string;
 }
@@ -42,6 +43,9 @@ export default function EducationCard({
   const [showCourses, setShowCourses] = useState(false);
 
   const isCSCourse = (code: string) => code.startsWith("CS");
+
+  const totalCredits =
+    courses?.reduce((sum, course) => sum + (course.credits || 0), 0) || 0;
 
   const groupedCourses = courses?.reduce(
     (acc, course) => {
@@ -86,7 +90,9 @@ export default function EducationCard({
             onClick={() => setShowCourses(!showCourses)}
             className="flex w-full items-center justify-between text-left text-sm font-medium text-gray-300 transition-colors hover:text-white"
           >
-            <span>View Coursework ({courses.length} courses)</span>
+            <span>
+              View Coursework ({courses.length} courses, {totalCredits} credits)
+            </span>
             {showCourses ? (
               <ChevronUp className="h-4 w-4" />
             ) : (
@@ -147,6 +153,9 @@ export default function EducationCard({
                                 </p>
                               </div>
                               <div className="flex gap-4 text-xs text-gray-500">
+                                {course.credits && (
+                                  <span>{course.credits} credits</span>
+                                )}
                                 <span>Grade: {course.grade}</span>
                                 <span>Attendance: {course.attendance}</span>
                               </div>

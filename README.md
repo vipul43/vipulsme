@@ -43,7 +43,9 @@ make clean      # Clean build artifacts
 
 ## Features
 
-- Fixed navigation bar with active state highlighting
+- Fixed navigation bar with active state highlighting on all pages
 - Hero section with social links
+- Expandable coursework section (58 courses, 160 credits) with CS courses highlighted
+- Direct links to course assignments, projects, and notes (GitHub/Notion)
 - Responsive design
 - Smooth animations and transitions

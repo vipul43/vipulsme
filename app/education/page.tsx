@@ -24,6 +24,7 @@ const education = [
         title: "Calculus",
         grade: "D",
         attendance: "VG",
+        credits: 4,
       },
       {
         semester: "Semester 1",
@@ -31,6 +32,7 @@ const education = [
         title: "Physics 1",
         grade: "D",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 1",
@@ -38,6 +40,7 @@ const education = [
         title: "Theoretical and Inorganic Chemistry",
         grade: "E",
         attendance: "G",
+        credits: 3,
       },
       {
         semester: "Semester 1",
@@ -45,6 +48,7 @@ const education = [
         title: "Ecology and Environment",
         grade: "B",
         attendance: "G",
+        credits: 2,
       },
       {
         semester: "Semester 1",
@@ -52,6 +56,7 @@ const education = [
         title: "Concepts in Engineering Design",
         grade: "C",
         attendance: "G",
+        credits: 2,
       },
       {
         semester: "Semester 1",
@@ -59,6 +64,7 @@ const education = [
         title: "Engineering Drawing",
         grade: "D",
         attendance: "G",
+        credits: 3,
       },
       {
         semester: "Semester 1",
@@ -66,6 +72,7 @@ const education = [
         title: "Workshop Practice I",
         grade: "C",
         attendance: "G",
+        credits: 2,
       },
       {
         semester: "Semester 1",
@@ -73,6 +80,7 @@ const education = [
         title: "Physics Laboratory",
         grade: "B",
         attendance: "VG",
+        credits: 2,
       },
       {
         semester: "Semester 1",
@@ -80,6 +88,7 @@ const education = [
         title: "Life Skills",
         grade: "Y",
         attendance: "VG",
+        credits: 0,
       },
       {
         semester: "Semester 2",
@@ -87,6 +96,7 @@ const education = [
         title: "Vector Calculus and Linear Algebra",
         grade: "E",
         attendance: "G",
+        credits: 4,
       },
       {
         semester: "Semester 2",
@@ -94,6 +104,7 @@ const education = [
         title: "Physics II",
         grade: "D",
         attendance: "G",
+        credits: 3,
       },
       {
         semester: "Semester 2",
@@ -101,6 +112,7 @@ const education = [
         title: "Thermodynamics, Kinetics and Organic Reactions",
         grade: "B",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 2",
@@ -108,6 +120,7 @@ const education = [
         title: "Engineering Thermodynamics",
         grade: "C",
         attendance: "G",
+        credits: 3,
       },
       {
         semester: "Semester 2",
@@ -115,6 +128,7 @@ const education = [
         title: "Engineering Mechanics",
         grade: "D",
         attendance: "G",
+        credits: 4,
       },
       {
         semester: "Semester 2",
@@ -122,6 +136,7 @@ const education = [
         title: "Introduction to Programming",
         grade: "C",
         attendance: "G",
+        credits: 4,
       },
       {
         semester: "Semester 2",
@@ -129,6 +144,7 @@ const education = [
         title: "Workshop Practice II",
         grade: "A",
         attendance: "VG",
+        credits: 2,
       },
       {
         semester: "Semester 2",
@@ -136,6 +152,7 @@ const education = [
         title: "Chemistry Laboratory",
         grade: "A",
         attendance: "VG",
+        credits: 2,
       },
       {
         semester: "Semester 2",
@@ -143,6 +160,7 @@ const education = [
         title: "National Sports Organisation",
         grade: "Y",
         attendance: "G",
+        credits: 0,
       },
       {
         semester: "Semester 3",
@@ -150,6 +168,7 @@ const education = [
         title: "Life Sciences",
         grade: "B",
         attendance: "VG",
+        credits: 2,
       },
       {
         semester: "Semester 3",
@@ -157,6 +176,7 @@ const education = [
         title: "Probability, Stochastic Processes, and Statistics",
         grade: "C",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 3",
@@ -164,6 +184,7 @@ const education = [
         title: "Digital Systems",
         grade: "B",
         attendance: "VG",
+        credits: 4,
       },
       {
         semester: "Semester 3",
@@ -171,6 +192,7 @@ const education = [
         title: "Principles of Economics",
         grade: "B",
         attendance: "G",
+        credits: 3,
       },
       {
         semester: "Semester 3",
@@ -178,6 +200,7 @@ const education = [
         title: "Logic for Computing",
         grade: "D",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 3",
@@ -185,6 +208,7 @@ const education = [
         title: "Data Structures and Algorithms",
         grade: "B",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 3",
@@ -192,6 +216,7 @@ const education = [
         title: "Data Structures and Algorithms Laboratory",
         grade: "B",
         attendance: "VG",
+        credits: 2,
       },
       {
         semester: "Semester 3",
@@ -199,6 +224,7 @@ const education = [
         title: "Digital Circuits Laboratory",
         grade: "A",
         attendance: "VG",
+        credits: 2,
       },
       {
         semester: "Semester 4",
@@ -206,6 +232,7 @@ const education = [
         title: "Discrete Mathematics for Computer Science",
         grade: "B",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 4",
@@ -213,6 +240,7 @@ const education = [
         title: "Design and Analysis of Algorithms",
         grade: "B",
         attendance: "VG",
+        credits: 4,
       },
       {
         semester: "Semester 4",
@@ -220,6 +248,7 @@ const education = [
         title: "Computer Organisation",
         grade: "B",
         attendance: "G",
+        credits: 3,
         githubLink: "https://github.com/vipul43/RISC_V_architecture_design",
       },
       {
@@ -228,6 +257,7 @@ const education = [
         title: "Artificial Intelligence",
         grade: "A",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 4",
@@ -235,6 +265,7 @@ const education = [
         title: "Artificial Intelligence Laboratory",
         grade: "A",
         attendance: "VG",
+        credits: 2,
         githubLink: "https://github.com/vipul43/CS2180_AI_LAB",
       },
       {
@@ -243,6 +274,7 @@ const education = [
         title: "Introduction to Philosophy: Indian and Western",
         grade: "B",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 4",
@@ -250,6 +282,7 @@ const education = [
         title: "Numerical Analysis",
         grade: "A",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 5",
@@ -257,6 +290,7 @@ const education = [
         title: "Professional Ethics",
         grade: "A",
         attendance: "G",
+        credits: 2,
       },
       {
         semester: "Semester 5",
@@ -264,6 +298,7 @@ const education = [
         title: "Operating Systems",
         grade: "A",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 5",
@@ -271,6 +306,7 @@ const education = [
         title: "Paradigms of Programming",
         grade: "B",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 5",
@@ -278,6 +314,7 @@ const education = [
         title: "Theory of Computation",
         grade: "A",
         attendance: "VG",
+        credits: 4,
       },
       {
         semester: "Semester 5",
@@ -285,6 +322,7 @@ const education = [
         title: "Operating Systems Laboratory",
         grade: "A",
         attendance: "VG",
+        credits: 2,
         githubLink: "https://github.com/vipul43/CS3110_OS_LAB",
       },
       {
@@ -293,6 +331,7 @@ const education = [
         title: "Paradigms of Programming Laboratory",
         grade: "S",
         attendance: "VG",
+        credits: 2,
         githubLink: "https://github.com/vipul43/CS3130_POPL_LAB",
       },
       {
@@ -301,6 +340,7 @@ const education = [
         title: "Foundations of Linguistics",
         grade: "A",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 5",
@@ -308,6 +348,7 @@ const education = [
         title: "Parallel Programming",
         grade: "B",
         attendance: "G",
+        credits: 3,
       },
       {
         semester: "Semester 6",
@@ -315,6 +356,7 @@ const education = [
         title: "Database Management Systems",
         grade: "A",
         attendance: "G",
+        credits: 3,
         notionLink:
           "https://ambiguous-bike-0c8.notion.site/9fd5518fb7674852a9dccd5b8959b302?v=14e7c81a041b40db966751a91f784d24",
       },
@@ -324,6 +366,7 @@ const education = [
         title: "Compiler Design",
         grade: "B",
         attendance: "VG",
+        credits: 3,
         notionLink:
           "https://ambiguous-bike-0c8.notion.site/195a52405fb44c3baabac2b10d3c66c3?v=517452c90f6d4e24a55de23779fe57fb",
       },
@@ -333,6 +376,7 @@ const education = [
         title: "Database Management System Laboratory",
         grade: "C",
         attendance: "G",
+        credits: 2,
         githubLink: "https://github.com/vipul43/CS3120_DBMS_LAB",
         notionLink:
           "https://ambiguous-bike-0c8.notion.site/2a910f8518814ca49746025c6869079c?v=9b3ee695060a4439b147346a4a13238e",
@@ -343,6 +387,7 @@ const education = [
         title: "Compiler Design Laboratory",
         grade: "D",
         attendance: "VG",
+        credits: 2,
         notionLink:
           "https://ambiguous-bike-0c8.notion.site/024c8521d7c24303aae57d94525bd977?v=3e62fe54ee3f4d23b0d6b72e74481c99",
       },
@@ -352,6 +397,7 @@ const education = [
         title: "Open Ended Lab/Project",
         grade: "S",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 6",
@@ -359,6 +405,7 @@ const education = [
         title: "Reinforcement Learning",
         grade: "A",
         attendance: "G",
+        credits: 3,
       },
       {
         semester: "Semester 6",
@@ -366,6 +413,7 @@ const education = [
         title: "Deep Learning",
         grade: "C",
         attendance: "G",
+        credits: 3,
         githubLink: "https://github.com/vipul43/CS5007_DL",
         notionLink:
           "https://ambiguous-bike-0c8.notion.site/8239b0b1e32a4ef29fa2f37f7ca507a9?v=3210aaadac194ab8810bb3a82e241042",
@@ -376,6 +424,7 @@ const education = [
         title: "Internship",
         grade: "Y",
         attendance: "VG",
+        credits: 0,
       },
       {
         semester: "Semester 7",
@@ -383,6 +432,7 @@ const education = [
         title: "Project I",
         grade: "B",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 7",
@@ -390,6 +440,7 @@ const education = [
         title: "Computer Networks",
         grade: "E",
         attendance: "G",
+        credits: 3,
       },
       {
         semester: "Semester 7",
@@ -397,6 +448,7 @@ const education = [
         title: "Computer Networks Laboratory",
         grade: "E",
         attendance: "G",
+        credits: 2,
       },
       {
         semester: "Semester 7",
@@ -404,6 +456,7 @@ const education = [
         title: "Software Engineering",
         grade: "C",
         attendance: "G",
+        credits: 3,
       },
       {
         semester: "Semester 7",
@@ -411,6 +464,7 @@ const education = [
         title: "Digital Image Processing",
         grade: "E",
         attendance: "G",
+        credits: 3,
       },
       {
         semester: "Semester 7",
@@ -418,6 +472,7 @@ const education = [
         title: "Computational Complexity",
         grade: "U",
         attendance: "G",
+        credits: 3,
       },
       {
         semester: "Semester 8",
@@ -425,6 +480,7 @@ const education = [
         title: "Project II",
         grade: "D",
         attendance: "VG",
+        credits: 7,
       },
       {
         semester: "Semester 8",
@@ -432,6 +488,7 @@ const education = [
         title: "Media, Identity and the Self",
         grade: "E",
         attendance: "VG",
+        credits: 3,
       },
       {
         semester: "Semester 8",
@@ -439,6 +496,7 @@ const education = [
         title: "Introduction to Film Studies",
         grade: "E",
         attendance: "VG",
+        credits: 3,
       },
     ],
   },
