@@ -20,19 +20,21 @@ export default function ExperienceCard({
   technologies,
 }: ExperienceCardProps) {
   return (
-    <div className="group relative rounded-lg border border-gray-800 bg-black p-6 transition-all duration-200 hover:border-gray-600">
-      <div className="mb-4 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+    <div className="group relative rounded-lg border border-gray-800 bg-black p-4 transition-all duration-200 hover:border-gray-600 sm:p-6">
+      <div className="mb-4 flex flex-col gap-3 sm:gap-4">
         <div>
-          <h3 className="mb-1 text-xl font-bold text-white">{role}</h3>
-          <p className="text-lg text-gray-300">{company}</p>
+          <h3 className="mb-1 text-lg font-bold text-white sm:text-xl">
+            {role}
+          </h3>
+          <p className="text-base text-gray-300 sm:text-lg">{company}</p>
         </div>
-        <div className="flex flex-col gap-2 sm:text-right">
-          <div className="flex items-center gap-2 text-sm text-gray-400">
-            <Calendar className="h-4 w-4" />
+        <div className="flex flex-col gap-2 text-sm">
+          <div className="flex items-center gap-2 text-gray-400">
+            <Calendar className="h-4 w-4 flex-shrink-0" />
             <span>{period}</span>
           </div>
-          <div className="flex items-center gap-2 text-sm text-gray-400">
-            <MapPin className="h-4 w-4" />
+          <div className="flex items-center gap-2 text-gray-400">
+            <MapPin className="h-4 w-4 flex-shrink-0" />
             <span>{location}</span>
           </div>
         </div>

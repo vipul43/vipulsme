@@ -27,6 +27,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Projects page with 5 projects (Kiwis.club, Blood Donation System, Face Mask Detector, Hospital Management, Image Description)
 - Education page with coursework details (58 courses, 160 credits with CS courses highlighted, GitHub/Notion links for assignments and notes)
 - Fixed navigation bar on all pages for seamless navigation between sections
+- Profile image on home page hero section
+- Fully responsive mobile design with optimized layouts for all screen sizes
 - lucide-react 0.469.0 for icons
 - Black theme across entire website (Next.js style)
 - Client and Server Components architecture

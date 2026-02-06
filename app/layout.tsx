@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   description:
     "Systems Engineer specializing in backend development, infrastructure, and building scalable solutions",
   metadataBase: new URL("https://vipuls.me"),
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
+  },
 };
 
 export default function RootLayout({
