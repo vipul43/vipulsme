@@ -1,7 +1,7 @@
 import { Metadata } from "next";
-import Link from "next/link";
-import { ArrowLeft, GraduationCap } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 import EducationCard from "../components/EducationCard";
+import Navigation from "../components/Navigation";
 
 export const metadata: Metadata = {
   title: "Education | Vipul",
@@ -455,17 +455,8 @@ const education = [
 export default function EducationPage() {
   return (
     <div className="min-h-screen bg-black">
-      <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="mb-6">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-gray-400 transition-colors hover:text-white"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            <span>Back to Home</span>
-          </Link>
-        </div>
-
+      <Navigation />
+      <div className="mx-auto max-w-5xl px-4 pt-24 pb-8 sm:px-6 lg:px-8">
         <div className="mb-8">
           <div className="mb-3 flex items-center gap-3">
             <GraduationCap className="h-8 w-8 text-white" />

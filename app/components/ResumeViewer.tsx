@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
-import { Download, ArrowLeft } from "lucide-react";
+import { Download } from "lucide-react";
+import Navigation from "./Navigation";
 
 export default function ResumeViewer() {
   const [isLoading, setIsLoading] = useState(true);
@@ -18,17 +18,8 @@ export default function ResumeViewer() {
 
   return (
     <div className="min-h-screen bg-black">
-      <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="mb-6">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-gray-400 transition-colors hover:text-white"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            <span>Back to Home</span>
-          </Link>
-        </div>
-
+      <Navigation />
+      <div className="mx-auto max-w-6xl px-4 pt-24 pb-8 sm:px-6 lg:px-8">
         <div className="overflow-hidden rounded-xl border border-gray-800 bg-black shadow-2xl">
           <div className="border-b border-gray-800 px-6 py-4">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">

@@ -35,7 +35,7 @@ export default function ContactCard() {
     {
       icon: <Linkedin className="h-6 w-6 text-black" />,
       label: "LinkedIn",
-      value: "Sai Vipul Mohan",
+      value: "Sai Vipul Mohan Veludandi",
       href: "https://www.linkedin.com/in/sai-vipul-mohan/",
     },
     {
