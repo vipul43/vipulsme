@@ -45,6 +45,8 @@ make clean      # Clean build artifacts
 
 - Fixed navigation bar with active state highlighting on all pages
 - Hero section with profile image and social links
+- Professional experience summary showing total years (auto-calculated)
+- Current projects highlighted with special styling
 - Expandable coursework section (58 courses, 160 credits) with CS courses highlighted
 - Direct links to course assignments, projects, and notes (GitHub/Notion)
 - Fully responsive mobile-first design

@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: "Blood Donation Tracking System",
-    period: "January 2022 - Present",
+    period: "January 2022 - December 2022",
     description:
       "A comprehensive system to track donated blood, and its components during various phases. Donors can track their donated blood, like what components the blood is divided into, where each component is now at, in which hospital it is used, how many lives are saved, also share it on social media, get reminded of regular donation periods, donation campaigns, donation requirements.",
     technologies: ["Web Development", "Database", "Tracking System"],

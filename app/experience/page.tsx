@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { Briefcase } from "lucide-react";
 import ExperienceCard from "../components/ExperienceCard";
+import ExperienceSummary from "../components/ExperienceSummary";
 import Navigation from "../components/Navigation";
 
 export const metadata: Metadata = {
@@ -138,6 +139,8 @@ export default function ExperiencePage() {
             My professional journey and work experience
           </p>
         </div>
+
+        <ExperienceSummary />
 
         <div className="space-y-6">
           {experiences.map((exp, index) => (
