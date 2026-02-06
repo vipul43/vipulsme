@@ -24,15 +24,19 @@ export default function ProjectCard({
   const isCurrent = period.toLowerCase().includes("present");
 
   return (
-    <div className={`group relative rounded-lg border bg-black p-4 transition-all duration-200 sm:p-6 ${
-      isCurrent 
-        ? "border-2 border-white hover:border-gray-300" 
-        : "border-gray-800 hover:border-gray-600"
-    }`}>
+    <div
+      className={`group relative rounded-lg border bg-black p-4 transition-all duration-200 sm:p-6 ${
+        isCurrent
+          ? "border-2 border-white hover:border-gray-300"
+          : "border-gray-800 hover:border-gray-600"
+      }`}
+    >
       {isCurrent && (
         <div className="mb-4 flex items-center gap-2">
           <Sparkles className="h-4 w-4 text-white" />
-          <span className="text-sm font-medium text-white">Current Project</span>
+          <span className="text-sm font-medium text-white">
+            Current Project
+          </span>
         </div>
       )}
       <div className="flex flex-col gap-4">

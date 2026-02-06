@@ -22,9 +22,7 @@ export default function ExperienceSummary() {
             <h2 className="mb-2 text-3xl font-bold text-white sm:text-4xl">
               {yearsOfExperience}+ Years
             </h2>
-            <p className="text-lg text-gray-400">
-              Professional Experience
-            </p>
+            <p className="text-lg text-gray-400">Professional Experience</p>
             <p className="mt-2 text-sm text-gray-500">
               Full-time roles at Dognosis & SubCom
             </p>

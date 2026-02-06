@@ -18,23 +18,23 @@ install:
 	@echo "📦 Installing dependencies..."
 	npm install
 
-dev:
+dev: install
 	@echo "🚀 Starting development server..."
 	npm run dev
 
-build:
+build: install
 	@echo "🏗️  Building for production..."
 	npm run build
 
-start:
+start: install
 	@echo "▶️  Starting production server..."
 	npm run start
 
-lint:
+lint: install
 	@echo "🔍 Running ESLint..."
 	npm run lint
 
-format:
+format: install
 	npm run format
 
 clean:
