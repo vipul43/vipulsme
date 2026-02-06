@@ -1,12 +1,25 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 
 export default function Hero() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-black px-4">
       <div className="mx-auto max-w-4xl text-center">
+        <div className="mb-8 flex justify-center">
+          <div className="relative h-32 w-32 overflow-hidden rounded-full border-2 border-gray-800">
+            <Image
+              src="/profile.jpg"
+              alt="Vipul"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
+
         <h1 className="animate-fade-in mb-6 text-5xl font-bold text-white sm:text-7xl">
           Hi, I&apos;m <span className="text-gray-400">Vipul</span>
         </h1>
