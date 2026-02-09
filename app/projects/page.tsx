@@ -34,7 +34,7 @@ const projects = [
     description:
       "Designed and trained deep learning models to solve Object Detection and Image Classification problem statements on Face Mask 12k and AIZOO datasets. The model achieved around 99% accuracy. Provided user interface to the trained models using Flask framework.",
     technologies: ["Deep Learning", "Object Detection", "Flask", "Python"],
-    githubLink: "https://github.com/pulavartivinay/Face_Mask_Detection",
+    githubLink: "https://github.com/vipul43/Face_Mask_Detection",
     association: "Indian Institute of Technology, Palakkad",
   },
   {
@@ -43,7 +43,7 @@ const projects = [
     description:
       "Built Hospital Management System from scratch following the Database Management System principles. Starting from requirement specifications, ERD, populating the database, designing views, functions, and procedures to designing the Web Application using HTML, PHP, and serving it using Apache.",
     technologies: ["Database", "PHP", "HTML", "Apache", "MySQL"],
-    githubLink: "https://github.com/pulavartivinay/Hospital/",
+    githubLink: "https://github.com/vipul43/Hospital",
     association: "Indian Institute of Technology, Palakkad",
   },
   {
