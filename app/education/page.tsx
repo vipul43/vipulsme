@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { GraduationCap } from "lucide-react";
 import EducationCard from "../components/EducationCard";
+import CertificationCard from "../components/CertificationCard";
 import Navigation from "../components/Navigation";
 
 export const metadata: Metadata = {
@@ -510,6 +511,57 @@ const education = [
   },
 ];
 
+const certifications = {
+  specialization: "Deep Learning Specialization",
+  provider: "Coursera - DeepLearning.AI",
+  period: "June 2020 - August 2020",
+  credentialUrl:
+    "https://www.coursera.org/account/accomplishments/specialization/QJUU86LNVPLC",
+  certifications: [
+    {
+      title: "Neural Networks and Deep Learning",
+      issuer: "DeepLearning.AI",
+      instructors: ["Andrew Ng", "Kian Katanforoosh", "Younes Bensouda Mourri"],
+      completedDate: "June 11, 2020",
+      credentialUrl:
+        "https://www.coursera.org/account/accomplishments/verify/VJDGUUAM98QQ",
+    },
+    {
+      title:
+        "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+      issuer: "DeepLearning.AI",
+      instructors: ["Andrew Ng", "Kian Katanforoosh", "Younes Bensouda Mourri"],
+      completedDate: "June 16, 2020",
+      credentialUrl:
+        "https://www.coursera.org/account/accomplishments/verify/JJ2LV4DD7A33",
+    },
+    {
+      title: "Structuring Machine Learning Projects",
+      issuer: "DeepLearning.AI",
+      instructors: ["Andrew Ng", "Younes Bensouda Mourri", "Kian Katanforoosh"],
+      completedDate: "June 26, 2020",
+      credentialUrl:
+        "https://www.coursera.org/account/accomplishments/verify/SH7BW8L3D2C4",
+    },
+    {
+      title: "Convolutional Neural Networks",
+      issuer: "DeepLearning.AI",
+      instructors: ["Andrew Ng", "Kian Katanforoosh", "Younes Bensouda Mourri"],
+      completedDate: "August 2, 2020",
+      credentialUrl:
+        "https://www.coursera.org/account/accomplishments/verify/2AXX6UHWXQ9Y",
+    },
+    {
+      title: "Sequence Models",
+      issuer: "DeepLearning.AI",
+      instructors: ["Andrew Ng", "Kian Katanforoosh", "Younes Bensouda Mourri"],
+      completedDate: "August 6, 2020",
+      credentialUrl:
+        "https://www.coursera.org/account/accomplishments/verify/Z8PLXZYDSV2L",
+    },
+  ],
+};
+
 export default function EducationPage() {
   return (
     <div className="min-h-screen bg-black">
@@ -529,6 +581,13 @@ export default function EducationPage() {
           {education.map((edu, index) => (
             <EducationCard key={index} {...edu} />
           ))}
+        </div>
+
+        <div className="mt-12">
+          <h2 className="mb-6 text-2xl font-bold text-white">
+            Professional Certifications
+          </h2>
+          <CertificationCard {...certifications} />
         </div>
       </div>
     </div>
