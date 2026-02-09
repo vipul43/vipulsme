@@ -39,7 +39,7 @@ make clean      # Clean build artifacts
 - Experience (Dognosis, SubCom, Kwanzoo, UST Global)
 - Projects (Kiwis.club, Blood Donation System, Face Mask Detector, Hospital Management, Image Description)
 - Resume (with PDF viewer and download)
-- Contact (LinkedIn, GitHub, Email, Google Calendar scheduling)
+- Contact (LinkedIn, GitHub, Email, Google Calendar scheduling, Coding Profiles)
 
 ## Features
 
@@ -52,6 +52,7 @@ make clean      # Clean build artifacts
 - Collapsible certification courses with instructor details and completion dates
 - Direct links to course assignments, projects, and notes (GitHub/Notion)
 - Google Calendar integration for easy meeting scheduling
+- Coding profiles section (LeetCode, GeeksforGeeks, CodeChef, Codeforces)
 - Fully responsive mobile-first design
 - Smooth animations and transitions
 - Optimized for all screen sizes (mobile, tablet, desktop)

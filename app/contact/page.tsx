@@ -23,6 +23,46 @@ export default function ContactPage() {
           <div className="p-6">
             <ContactCard />
           </div>
+
+          <div className="border-t border-gray-800 px-6 py-6">
+            <h2 className="mb-4 text-lg font-semibold text-white">
+              Coding Profiles
+            </h2>
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+              <a
+                href="https://leetcode.com/u/vipul43/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-gray-800 bg-gray-900 px-4 py-3 text-center text-sm text-gray-300 transition-colors hover:border-gray-600 hover:bg-gray-800 hover:text-white"
+              >
+                LeetCode
+              </a>
+              <a
+                href="https://www.geeksforgeeks.org/profile/vipul43?tab=activity"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-gray-800 bg-gray-900 px-4 py-3 text-center text-sm text-gray-300 transition-colors hover:border-gray-600 hover:bg-gray-800 hover:text-white"
+              >
+                GeeksforGeeks
+              </a>
+              <a
+                href="https://www.codechef.com/users/vipul43/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-gray-800 bg-gray-900 px-4 py-3 text-center text-sm text-gray-300 transition-colors hover:border-gray-600 hover:bg-gray-800 hover:text-white"
+              >
+                CodeChef
+              </a>
+              <a
+                href="https://codeforces.com/profile/vipul_mohan/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-gray-800 bg-gray-900 px-4 py-3 text-center text-sm text-gray-300 transition-colors hover:border-gray-600 hover:bg-gray-800 hover:text-white"
+              >
+                Codeforces
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

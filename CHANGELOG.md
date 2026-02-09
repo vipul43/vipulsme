@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Resume page with PDF viewer and download functionality
 - Contact page with LinkedIn, GitHub, and Email links
 - Google Calendar scheduling integration on contact page
+- Coding profiles section on contact page (LeetCode, GeeksforGeeks, CodeChef, Codeforces)
 - Experience page with complete work history (6 positions: Dognosis, SubCom, Kwanzoo, UST Global)
 - Professional experience summary card showing years of experience (auto-calculated from Aug 2022)
 - Education page with academic background (IIT Palakkad, Narayana Junior College)
