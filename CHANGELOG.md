@@ -22,9 +22,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Hero section with social links (GitHub, LinkedIn, Email)
 - Resume page with PDF viewer and download functionality
 - Contact page with LinkedIn, GitHub, and Email links
+- Google Calendar scheduling integration on contact page
 - Experience page with complete work history (6 positions: Dognosis, SubCom, Kwanzoo, UST Global)
 - Professional experience summary card showing years of experience (auto-calculated from Aug 2022)
 - Education page with academic background (IIT Palakkad, Narayana Junior College)
+- Professional certifications section on education page
+- Deep Learning Specialization from Coursera (5 courses, collapsible view)
+- Individual course certificates with instructor names and completion dates
 - Projects page with 5 projects (Kiwis.club, Blood Donation System, Face Mask Detector, Hospital Management, Image Description)
 - Current projects highlighted with white border and "Current Project" badge
 - Education page with coursework details (58 courses, 160 credits with CS courses highlighted, GitHub/Notion links for assignments and notes)

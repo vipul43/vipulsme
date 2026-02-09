@@ -35,11 +35,11 @@ make clean      # Clean build artifacts
 ## Pages
 
 - Home (landing with hero and navigation)
-- Education (IIT Palakkad, Narayana Junior College)
+- Education (IIT Palakkad, Narayana Junior College, Professional Certifications)
 - Experience (Dognosis, SubCom, Kwanzoo, UST Global)
 - Projects (Kiwis.club, Blood Donation System, Face Mask Detector, Hospital Management, Image Description)
 - Resume (with PDF viewer and download)
-- Contact (LinkedIn, GitHub, Email)
+- Contact (LinkedIn, GitHub, Email, Google Calendar scheduling)
 
 ## Features
 
@@ -48,7 +48,10 @@ make clean      # Clean build artifacts
 - Professional experience summary showing total years (auto-calculated)
 - Current projects highlighted with special styling
 - Expandable coursework section (58 courses, 160 credits) with CS courses highlighted
+- Professional certifications section with Deep Learning Specialization (5 courses)
+- Collapsible certification courses with instructor details and completion dates
 - Direct links to course assignments, projects, and notes (GitHub/Notion)
+- Google Calendar integration for easy meeting scheduling
 - Fully responsive mobile-first design
 - Smooth animations and transitions
 - Optimized for all screen sizes (mobile, tablet, desktop)

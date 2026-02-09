@@ -1,6 +1,6 @@
 "use client";
 
-import { Linkedin, Github, Mail, ExternalLink } from "lucide-react";
+import { Linkedin, Github, Mail, ExternalLink, Calendar } from "lucide-react";
 
 interface ContactItemProps {
   icon: React.ReactNode;
@@ -50,6 +50,12 @@ export default function ContactCard() {
       value: "saifunny43@gmail.com",
       href: "mailto:saifunny43@gmail.com",
       isEmail: true,
+    },
+    {
+      icon: <Calendar className="h-6 w-6 text-black" />,
+      label: "Schedule a Meeting",
+      value: "Book a time on my calendar",
+      href: "https://calendar.app.google/JKqxdWP65X9QTNZA6",
     },
   ];
 
