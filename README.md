@@ -53,6 +53,7 @@ make clean      # Clean build artifacts
 - Direct links to course assignments, projects, and notes (GitHub/Notion)
 - Google Calendar integration for easy meeting scheduling
 - Coding profiles section (LeetCode, GeeksforGeeks, CodeChef, Codeforces)
+- Instant PDF resume viewer with download option (no loading delay)
 - Fully responsive mobile-first design
 - Smooth animations and transitions
 - Optimized for all screen sizes (mobile, tablet, desktop)

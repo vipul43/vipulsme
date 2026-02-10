@@ -46,6 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Global theme to pure black background with white text
 - Resume page displays PDF inline with download option
+- Removed loading state from resume page for instant PDF display
 
 ### Fixed
 

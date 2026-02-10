@@ -1,21 +1,9 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { Download } from "lucide-react";
 import Navigation from "./Navigation";
 
 export default function ResumeViewer() {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // Hide loading after 1 second
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <div className="min-h-screen bg-black">
       <Navigation />
@@ -41,14 +29,6 @@ export default function ResumeViewer() {
 
           <div className="p-6">
             <div className="relative overflow-hidden rounded-lg bg-black">
-              {isLoading && (
-                <div className="absolute inset-0 z-10 flex items-center justify-center bg-black">
-                  <div className="flex flex-col items-center gap-3">
-                    <div className="h-12 w-12 animate-spin rounded-full border-4 border-white border-t-transparent" />
-                    <p className="text-sm text-gray-400">Loading resume...</p>
-                  </div>
-                </div>
-              )}
               <iframe
                 src="/resume.pdf#toolbar=0"
                 className="h-[calc(100vh-250px)] min-h-[600px] w-full"
